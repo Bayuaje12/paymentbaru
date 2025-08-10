@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembayaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pembayaran</h1>
+        <div class="payment-method">
+            <h2>DANA</h2>
+            <p>Nomor DANA: 0886282627</p>
+            <button onclick="copyToClipboard('0886282627')">Salin Nomor DANA</button>
+        </div>
+        <div class="payment-method">
+            <h2>GOPAY</h2>
+            <p>Nomor GOPAY: 82962829928</p>
+            <button onclick="copyToClipboard('82962829928')">Salin Nomor GOPAY</button>
+        </div>
+        <div class="payment-method">
+            <h2>DVD</h2>
+            <p>Nomor DVD: 92829290010</p>
+            <button onclick="copyToClipboard('92829290010')">Salin Nomor DVD</button>
+        </div>
+        <div class="payment-method">
+            <h2>QRIS</h2>
+            <p>Silakan scan QRIS di bawah ini:</p>
+            <!-- Ganti dengan URL QRIS Anda -->
+            <img src="url_qris_image" alt="QRIS">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
